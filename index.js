@@ -5,9 +5,7 @@
 * Sondre Johansen
 * sondre.johans1@outlook.com
 *
-* HJI:
 * Daniel Steffensen
-* Even Tomter
 */
 
 //Array bestående av strenger med adferder
