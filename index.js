@@ -31,7 +31,8 @@ var reaksjon = Array(
 
 //Array bestående av strenger med konsekvenser
 var konsekvens = Array(
-  "som igjen fører til at laget i seg selv ofte jobber mindre effektivt."
+  "som igjen fører til at laget i seg selv ofte jobber mindre effektivt.",
+  "og dette fører til at jeg mister tillit til deg som leder."
 
 );
 
