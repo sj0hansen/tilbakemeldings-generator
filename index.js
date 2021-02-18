@@ -18,7 +18,9 @@ var adferd = Array(
   "Under stressende situasjoner kan du oppleves som tom for ideer og noe stresset som gjør at du fryser til.",
   "Til tider kan du fryse til i situasjoner hvor du må ta valg.",
   "Når du blir ledet av andre kan følgerstilen din oppleves som noe varierende og rotete.",
-  "I akutte situasjoner kan du virke usikker og fryse til.", "I relativt rolige situasjoner hvor en har god tid oppleves du til tider som stresset."
+  "I akutte situasjoner kan du virke usikker og fryse til.", "I relativt rolige situasjoner hvor en har god tid oppleves du til tider som stresset.",
+  "Når det stilles vansklige spørsmål til deg, opplever jeg sjeldent at du har noe godt svar.",
+  "Når ting går litt tregt opplever jeg deg som irritert og noe til bry."
 );
 
 //Array bestående av strenger med reaksjoner
