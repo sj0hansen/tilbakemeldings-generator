@@ -20,7 +20,8 @@ var adferd = Array(
   "Når du blir ledet av andre kan følgerstilen din oppleves som noe varierende og rotete.",
   "I akutte situasjoner kan du virke usikker og fryse til.", "I relativt rolige situasjoner hvor en har god tid oppleves du til tider som stresset.",
   "Når det stilles vansklige spørsmål til deg, opplever jeg sjeldent at du har noe godt svar.",
-  "Når ting går litt tregt opplever jeg deg som irritert og noe til bry."
+  "Når ting går litt tregt opplever jeg deg som irritert og noe til bry.",
+  "Jeg har opplevd at du innimellom ikke gir rom for diskusjoner. "
 );
 
 //Array bestående av strenger med reaksjoner
@@ -28,13 +29,17 @@ var reaksjon = Array(
   "Dette gjør at jeg kan føle meg noe ubrukelig", 
   "Dette gjør at jeg blir ekstremt irritert", 
   "I disse situasjonene blir jeg ofte noe oppgitt og sur", 
-  "Når dette skjer føler jeg at du ikke egentlig bryr deg om hva som skjer"
+  "Når dette skjer føler jeg at du ikke egentlig bryr deg om hva som skjer", 
+  "Ofte fører dette til at jeg føler du har annerkjent intensjonen ",
+  "Jeg reagerer på dette ved at jeg føler på ubehag "
 );
 
 //Array bestående av strenger med konsekvenser
 var konsekvens = Array(
   "som igjen fører til at laget i seg selv ofte jobber mindre effektivt.",
-  "og dette fører til at jeg mister tillit til deg som leder."
+  "og dette fører til at jeg mister tillit til deg som leder.", 
+  "som gjør at min forståelse av situasjonen blir noe mer brukbar.",
+  "som igjen leder til at vi som gruppe på godt og vondt blir noe reorganisert."
 
 );
 
@@ -52,7 +57,7 @@ function visTekst(){
 
 
   //Her settes tilbakemeldingen sammen, og vises på skjermen.
-  document.getElementById("knapp").innerHTML=(rAdferd + " " + rReaksjon + " " + rKonsekvens);
+  document.getElementById("knapp").innerHTML=(rAdferd + " " + rReaksjon + " " + rKonsekvens + '<br><br><br><br><br><br><br>');
 
 }
 
