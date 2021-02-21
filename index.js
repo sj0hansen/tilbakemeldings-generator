@@ -57,7 +57,51 @@ function visTekst(){
 
 
   //Her settes tilbakemeldingen sammen, og vises på skjermen.
+  
   document.getElementById("knapp").innerHTML=(rAdferd + " " + rReaksjon + " " + rKonsekvens + '<br><br><br><br><br><br><br>');
 
 }
 
+
+
+
+
+
+/*
+function readTextFile(file)
+{
+var rawFile = new XMLHttpRequest();
+rawFile.open("GET", file, true);
+rawFile.onreadystatechange = function ()
+{
+if(rawFile.readyState === 4)
+{
+if(rawFile.status === 200 || rawFile.status == 0)
+{
+var allText = rawFile.responseText;
+alert(allText);
+}
+}
+}
+rawFile.send(null);
+}
+
+readTextFile("E:\\GitHub\\tilbakemeldings-generator\\resources\\adferdNegativ.txt");
+*/
+
+
+
+function ReadFiles()
+{
+var fso, f1, ts, s;
+var ForReading = 1;
+fso = new ActiveXObject("Scripting.FileSystemObject");
+ts = fso.OpenTextFile("E:\\GitHub\\tilbakemeldings-generator\\resources\\adferdPositiv.txt", ForReading);
+s = ts.ReadLine();
+// s holds the text content
+ts.Close();
+alert("bruh");
+}
+
+ReadFiles();
+alert('Bruh');
